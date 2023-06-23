@@ -15,12 +15,12 @@ def automata_suma(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -52,12 +52,12 @@ def automata_rest(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -89,12 +89,12 @@ def automata_mult(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -126,12 +126,12 @@ def automata_div(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -163,12 +163,12 @@ def automata_exp(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -200,12 +200,12 @@ def automata_and(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -237,12 +237,12 @@ def automata_or(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -274,12 +274,12 @@ def automata_not(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -311,12 +311,12 @@ def automata_may(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -348,12 +348,12 @@ def automata_men(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -386,12 +386,12 @@ def automata_mayig(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -424,12 +424,12 @@ def automata_menig(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -462,12 +462,12 @@ def automata_difer(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1

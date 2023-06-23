@@ -68,12 +68,12 @@ def automata_cadena (cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -81,12 +81,14 @@ def automata_cadena (cadenaEjemplo):
     else:
         validad = 0
 
-    if (estadoActual == 2):
+    if (estadoActual == 3):
         findelinea = 0
-    elif (estadoActual == 3):
+    elif (estadoActual == 2):
         findelinea = 1
 
     return [validad,token,findelinea]
+
+
 
 entrada = input("Ingresa cadena a evaluar: ")
 salida=automata_identificadores(entrada)

@@ -42,9 +42,9 @@ def automata_intervalo(cadenaEjemplo):
     print("Cadena no valida")
     validad = 0
 
-  if (estadoActual == 10):
+  if (estadoActual == 11):
     findelinea = 0
-  elif (estadoActual == 11):
+  elif (estadoActual == 10):
     findelinea = 1
 
   print(validad,token, findelinea)

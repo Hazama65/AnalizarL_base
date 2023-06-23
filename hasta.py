@@ -41,9 +41,9 @@ def automata_hasta(cadenaEjemplo):
     print("Cadena no valida")
     validad = 0
 
-  if (estadoActual == 6):
+  if (estadoActual == 7):
     findelinea = 0
-  elif (estadoActual == 7):
+  elif (estadoActual == 6):
     findelinea = 1
 
   print(validad,token, findelinea)

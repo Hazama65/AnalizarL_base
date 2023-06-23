@@ -39,9 +39,9 @@ def automata_fin(cadenaEjemplo):
     print("Cadena no valida")
     validad = 0
 
-  if (estadoActual == 9):
+  if (estadoActual == 10):
     findelinea = 0
-  elif (estadoActual == 10):
+  elif (estadoActual == 9):
     findelinea = 1
 
   print(validad,token, findelinea)

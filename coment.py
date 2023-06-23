@@ -53,12 +53,12 @@ def automata_comentario(cadenaEjemplo):
     for cabezalDeLectura in range(0,logitudCadena):
         simboloEvaluado= str(cadenaEjemplo[cabezalDeLectura])
         if simboloEvaluado in sigma:
-        estadoActual = delta[simboloEvaluado][estadoActual]
+            estadoActual = delta[simboloEvaluado][estadoActual]
         print(estadoActual,simboloEvaluado)
         if(estadoActual)=='E':
             break
         else:
-        break
+            break
 
     if (estadoActual in F):
         validad = 1
@@ -66,9 +66,9 @@ def automata_comentario(cadenaEjemplo):
     else:
         validad = 0
 
-    if (estadoActual == 3):
+    if (estadoActual == 4):
         findelinea = 0
-    elif (estadoActual == 4):
+    elif (estadoActual == 3):
         findelinea = 1
 
     return [validad,token,findelinea]
