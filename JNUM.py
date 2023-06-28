@@ -18,7 +18,7 @@ def automata_constantes(cadenaEjemplo):
         '0':[1,1],
         '.':[1,1],
         ';':['E',2],
-        ' ':['E','E',3]
+        ' ':['E',3]
     }
     logitudCadena = len(cadenaEjemplo)
 
@@ -45,7 +45,3 @@ def automata_constantes(cadenaEjemplo):
         findelinea = 1
 
     return [validad,token,findelinea]
-
-entrada = input("Ingresa cadena a evaluar: ")
-salida=automata_constantes(entrada)
-print(salida)

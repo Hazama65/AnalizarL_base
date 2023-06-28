@@ -1,12 +1,22 @@
-def automata_cadena (cadenaEjemplo):
+def automata_identificadores (cadenaEjemplo):
     token = 'N'
     findelinea = 0
     Q= [0,1,2,3,4]
-    sigma = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','z'
+    sigma = ['1','2','3','4','5','6','7','8','9','0','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','z'
     ,'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Z',';',' ','_']
     q0= 0
-    F=[3]
+    F=[3,4]
     delta = {
+        '0': ['E', 2, 2, 2, 'E', 'E'],
+        '1': ['E', 2, 2, 2, 'E', 'E'],
+        '2': ['E', 2, 2, 2, 'E', 'E'],
+        '3': ['E', 2, 2, 2, 'E', 'E'],
+        '4': ['E', 2, 2, 2, 'E', 'E'],
+        '5': ['E', 2, 2, 2, 'E', 'E'],
+        '6': ['E', 2, 2, 2, 'E', 'E'],
+        '7': ['E', 2, 2, 2, 'E', 'E'],
+        '8': ['E', 2, 2, 2, 'E', 'E'],
+        '9': ['E', 2, 2, 2, 'E', 'E'],
         'a': [1, 2, 2, 2, 'E', 'E'],
         'b': [1, 2, 2, 2, 'E', 'E'],
         'c': [1, 2, 2, 2, 'E', 'E'],
@@ -59,8 +69,9 @@ def automata_cadena (cadenaEjemplo):
         'X': [1, 2, 2, 2, 'E', 'E'],
         'Y': [1, 2, 2, 2, 'E', 'E'],
         'Z': [1, 2, 2, 2, 'E', 'E'],
-        ' ': ['E',2,2,2,'E'],
-        ';': ['E','E',3,]
+        '_': ['E', 2, 2, 2, 'E','E'],
+        ';': ['E','E',3,],
+        ' ': ['E','E',4]
     }
     logitudCadena = len(cadenaEjemplo)
 
@@ -77,19 +88,13 @@ def automata_cadena (cadenaEjemplo):
 
     if (estadoActual in F):
         validad = 1
-        token = "CAD"
+        token = "IDE"
     else:
         validad = 0
 
     if (estadoActual == 3):
         findelinea = 0
-    elif (estadoActual == 2):
+    elif (estadoActual == 4):
         findelinea = 1
 
     return [validad,token,findelinea]
-
-
-
-entrada = input("Ingresa cadena a evaluar: ")
-salida=automata_identificadores(entrada)
-print(salida)

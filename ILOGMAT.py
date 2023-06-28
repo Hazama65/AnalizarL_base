@@ -4,7 +4,7 @@ def automata_suma(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['+',' ']
     q0= 0
-    F=[2]
+    F=[1]
     delta = {
         '+': [1,'E','E'],
         ' ': ['E',2],
@@ -41,7 +41,7 @@ def automata_rest(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['-',' ']
     q0= 0
-    F=[2]
+    F=[1]
     delta = {
         '-': [1,'E','E'],
         ' ': ['E',2],
@@ -78,7 +78,7 @@ def automata_mult(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['*',' ']
     q0= 0
-    F=[2]
+    F=[1]
     delta = {
         '*': [1,'E','E'],
         ' ': ['E',2],
@@ -115,7 +115,7 @@ def automata_div(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['/',' ']
     q0= 0
-    F=[2]
+    F=[1]
     delta = {
         '/': [1,'E','E'],
         ' ': ['E',2],
@@ -152,7 +152,7 @@ def automata_exp(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['^',' ']
     q0= 0
-    F=[2]
+    F=[1]
     delta = {
         '^': [1,'E','E'],
         ' ': ['E',2],
@@ -189,7 +189,7 @@ def automata_and(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['&',' ']
     q0= 0
-    F=[2]
+    F=[1]
     delta = {
         '&': [1,'E','E'],
         ' ': ['E',2],
@@ -226,7 +226,7 @@ def automata_or(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['~',' ']
     q0= 0
-    F=[2]
+    F=[1]
     delta = {
         '~': [1,'E','E'],
         ' ': ['E',2],
@@ -263,7 +263,7 @@ def automata_not(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['!',' ']
     q0= 0
-    F=[2]
+    F=[1]
     delta = {
         '!': [1,'E','E'],
         ' ': ['E',2],
@@ -300,7 +300,7 @@ def automata_may(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['>',' ']
     q0= 0
-    F=[2]
+    F=[1]
     delta = {
         '>': [1,'E','E'],
         ' ': ['E',2],
@@ -337,7 +337,7 @@ def automata_men(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['>',' ']
     q0= 0
-    F=[2]
+    F=[1]
     delta = {
         '<': [1,'E','E'],
         ' ': ['E',2],
@@ -374,7 +374,7 @@ def automata_mayig(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['>','=',' ']
     q0= 0
-    F=[3]
+    F=[2]
     delta = {
         '>': [1,'E','E'],
         '=': ['E',2,'E'],
@@ -412,7 +412,7 @@ def automata_menig(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['<','=',' ']
     q0= 0
-    F=[3]
+    F=[2]
     delta = {
         '<': [1,'E','E'],
         '=': ['E',2,'E'],
@@ -450,7 +450,7 @@ def automata_difer(cadenaEjemplo):
     Q= [0,1,2,3]
     sigma = ['>','<',' ']
     q0= 0
-    F=[3]
+    F=[2]
     delta = {
         '<': [1,'E','E'],
         '>': ['E',2,'E'],

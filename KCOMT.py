@@ -45,7 +45,7 @@ def automata_comentario(cadenaEjemplo):
         'z': ['E', 2, 2, 2, 'E','E'],
         '_': ['E', 2, 2, 2, 'E','E'],
         ';': ['E','E',3,],
-        ' ': ['E','E','E',4]
+        ' ': ['E','E',4]
     }
     logitudCadena = len(cadenaEjemplo)
 
@@ -72,7 +72,3 @@ def automata_comentario(cadenaEjemplo):
         findelinea = 1
 
     return [validad,token,findelinea]
-
-entrada = input("Ingresa cadena a evaluar: ")
-salida=automata_comentario(entrada)
-print(salida)
