@@ -84,6 +84,7 @@ def automata_min(cadenaEjemplo):
     findelinea = 1
 
   return[validad,token, findelinea]
+
 def automata_fh(cadenaEjemplo):
   token='N'
   Q= [0,1,2,3,4,5,6,7,8]
