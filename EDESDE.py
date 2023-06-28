@@ -1,5 +1,6 @@
 def automata_des(cadenaEjemplo):
   token = 'N'
+  findelinea = 0
   Q= [0,1,2,3,4,5,6,7]
   sigma = ['d','e','s','D','E','S',' ',';']
   q0= 0
@@ -46,6 +47,7 @@ def automata_des(cadenaEjemplo):
 
 def automata_hasta(cadenaEjemplo):
   token = 'N'
+  findelinea = 0
   Q= [0,1,2,3,4,5,6,7]
   sigma = ['h','a','s','t','H','A','S','T',' ',';']
   q0= 0
@@ -96,6 +98,7 @@ def automata_hasta(cadenaEjemplo):
 
 def automata_intervalo(cadenaEjemplo):
   token = 'N'
+  findelinea = 0
   Q= [0,1,2,3,4,5,6,7,8,9,10,11]
   sigma = ['i','n','t','e','r','v','a','l','o',' ',';']
   q0= 0
@@ -147,6 +150,7 @@ def automata_intervalo(cadenaEjemplo):
 
 def automata_fin(cadenaEjemplo):
   token = 'N'
+  findelinea = 0
   Q= [0,1,2,3,4,5,6,7,8,9,10]
   sigma = ['f','i','n','d','e','s',' ',';']
   q0= 0

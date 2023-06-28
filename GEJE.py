@@ -1,5 +1,6 @@
 def automata_ejec(cadenaEjemplo):
   token = 'N'
+  findelinea = 0
   Q= [0,1,2,3,4,5,6,7,8,9]
   sigma = ['e','j','c','u','t','a',' ',';']
   q0= 0
@@ -46,6 +47,7 @@ def automata_ejec(cadenaEjemplo):
 
 def automata_hasta(cadenaEjemplo):
   token = 'N'
+  findelinea = 0
   Q= [0,1,2,3,4,5,6,7]
   sigma = ['h','a','s','t','H','A','S','T',' ',';']
   q0= 0
